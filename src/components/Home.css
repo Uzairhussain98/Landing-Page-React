@@ -1,0 +1,120 @@
+.home__image{
+    width: 600px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+.home{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -70px;
+
+}
+.home__text{
+    margin-top: 0px;
+    font-size: 20px;  
+      color: rgb(107, 105, 105);
+      height:500px;
+      margin-left: 50px;
+
+}
+.home__text > h4{
+     
+      color: rgb(107, 105, 105);
+      font-weight: 300;
+      padding-right: 100px;
+
+}
+.home__btn{
+    background-color: yellow;
+    height: 40px;
+    width: 120px;
+    border: none;
+    font-size: 16px;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top:5px;
+    transition: 300ms ease-in-out;
+
+
+}
+.home__btn_two{
+    background-color: whitesmoke;
+    height: 40px;
+    width: 120px;
+    border: none;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-top:5px;
+    transition: 300ms ease-in-out;
+
+
+}
+.home__btn:hover{
+    background-color: whitesmoke;
+    border:3px solid rgb(255, 145, 0);
+    cursor: pointer;
+    transform: scale(1.02);
+    transform-origin: center center;
+    filter: drop-shadow(0 3px 3px rgba(167, 167, 167, 0.5));
+
+
+}
+.home__btn_two:hover{
+    border:3px solid rgb(255, 145, 0);
+    cursor: pointer;
+    transform: scale(1.02);
+    transform-origin: center center;
+    filter: drop-shadow(0 3px 3px rgba(167, 167, 167, 0.5));
+
+
+
+}
+
+
+ @media screen and (max-width: 800px) {
+   .home{
+            flex-direction: column;
+    
+        }
+        .home__image{
+            width: 700px;
+            height: 500px;
+            margin-left: 40px;
+            margin-top: 50px;
+
+        
+        }
+        .home__text{
+            margin-top: 30px;
+            font-size: 20px;  
+              color: rgb(107, 105, 105);
+              margin-left: 120px;
+              height:350px
+
+        
+        }
+    
+
+ }
+ @media screen and (max-width: 500px) {
+    .home{
+        flex-direction: column;
+
+    }
+    .home__image{
+        width: 400px;
+        height: 300px;
+        margin-left: 10px;
+        margin-top: 100px;
+    
+    }
+    .home__text{
+        margin-top: 50px;
+        font-size: 15px;  
+          color: rgb(107, 105, 105);
+          margin-left: 70px;
+    
+    }
+}

@@ -1,6 +1,17 @@
 .App {
   text-align: center;
+  color: grey;
+  background-color: khaki;
 }
+
+
+.Appp {
+  text-align: center;
+  color: grey;
+
+  background-color: pink;
+}
+
 
 .App-logo {
   height: 40vmin;
